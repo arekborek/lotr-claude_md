@@ -36,3 +36,14 @@ files through an interactive, interview-driven master prompt. See the
    `## CLAUDE.md template` (one owned output section).
 2. Add a row to `modules/index.md`.
 3. Add it to the "Available modules" list in `README.md`.
+
+## Git & Branching
+
+- **Model:** GitHub Flow — feature branches off `main`, merged via PR.
+- **Default branch:** `main`
+- **Branch naming:** `<type>/<short-description>` — e.g. `feature/add-login`, `fix/null-pointer`
+- **Commit convention:** Conventional Commits — `<type>(<scope>): <summary>`
+- **Landing changes:** PR required; at least one approval before merge; author merges after approval.
+- **Merge strategy:** Squash merge — one commit per PR on `main`.
+- **Claude's permissions:** Prepare changes only — commits locally, does not push or open PRs unless explicitly asked.
+- **Protected branches / rules:** `main` is protected — no direct pushes; all changes via PR.
