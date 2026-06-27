@@ -5,17 +5,20 @@ workflow instead of guessing.
 
 ## Interview questions
 
+<!-- Total: 8 questions. Claude must ask these one at a time, showing the
+     default before each question and waiting for a reply before continuing. -->
+
 1. What branching model do you use? (trunk-based, GitHub Flow, Git Flow, custom)
    **Default:** GitHub Flow — feature branches off `main`, merged via PR.
 
-2. What is the default/integration branch? (e.g. `master`, `main`, `develop`)
+2. What is the default/integration branch?
    **Default:** `main`
 
-3. Branch naming convention? (e.g. `feature/…`, `fix/…`, ticket prefixes)
-   **Default:** `<type>/<short-description>` — e.g. `feature/add-login`, `fix/null-pointer`.
+3. Branch naming convention?
+   **Default:** `<type>/<short-description>` — e.g. `feature/add-login`, `fix/null-pointer`
 
-4. Commit message convention? (e.g. Conventional Commits, free-form)
-   **Default:** Conventional Commits — `<type>(<scope>): <summary>` (e.g. `feat(auth): add OAuth2 login`).
+4. Commit message convention?
+   **Default:** Conventional Commits — `<type>(<scope>): <summary>` (e.g. `feat(auth): add OAuth2 login`)
 
 5. How do changes land? (PR required? reviews/approvals? who merges?)
    **Default:** PR required; at least one approval before merge; author merges after approval.
