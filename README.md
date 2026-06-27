@@ -42,7 +42,7 @@ area when upgrading an existing one.
 Paste this into Claude Code inside the project you want to configure:
 
 ```
-Read https://raw.githubusercontent.com/arekborek/lotr-claude.md/main/prompt/master-prompt.md and follow it to configure this project's CLAUDE.md.
+Read https://raw.githubusercontent.com/arekborek/lotr-claude_md/main/prompt/master-prompt.md and follow it to configure this project's CLAUDE.md.
 ```
 
 ### Option B — paste the full prompt

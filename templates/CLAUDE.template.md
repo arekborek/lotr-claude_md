@@ -2,7 +2,7 @@
 
 > Guidance for Claude Code working in this repository.
 > Generated and maintained with **lotr-claude.md** —
-> https://github.com/arekborek/lotr-claude.md
+> https://github.com/arekborek/lotr-claude_md
 
 ## Overview
 

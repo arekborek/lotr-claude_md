@@ -15,9 +15,9 @@ guess an answer you can ask me for.
 
 The configuration library lives at:
 
-- **Repo:** https://github.com/arekborek/lotr-claude.md
+- **Repo:** https://github.com/arekborek/lotr-claude_md
 - **Branch:** `main`
-- **Raw base URL:** `https://raw.githubusercontent.com/arekborek/lotr-claude.md/main/`
+- **Raw base URL:** `https://raw.githubusercontent.com/arekborek/lotr-claude_md/main/`
 
 Fetch files from the raw base URL above. Begin by fetching `modules/index.md`,
 which lists every available configuration area (module) with a short description.
