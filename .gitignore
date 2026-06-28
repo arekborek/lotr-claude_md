@@ -1,11 +1,15 @@
 # OS
 .DS_Store
 Thumbs.db
+.env
 
 # Editors
 .vscode/
 .idea/
 *.swp
+
+# Claude Code Skills files
+.firecrawl/
 
 # Claude Code local settings
 .claude/settings.local.json
